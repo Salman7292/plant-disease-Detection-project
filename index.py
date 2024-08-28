@@ -20,7 +20,7 @@ st.set_page_config(
 
 
 # # Load the saved model
-cnn_model = load_model('https://github.com/Salman7292/plant-disease-Detection-project/blob/71f017fa1e58f03e23e08bcc77f8fb9a1106b923/plant_disease_prediction_model.h5')
+cnn_model = load_model('plant_disease_prediction_model.h5')
 
 
 # Path to your JSON file
